@@ -8,7 +8,7 @@ defmodule AppStore.API.TransactionHistory do
   @type original_transaction_id :: String.t()
   @type revision :: String.t() | nil
 
-  @path_prefix "/inApps/v1/history"
+  @path_prefix "/inApps/v2/history"
 
   @doc """
   Get a customer’s transaction history, including all of their in-app purchases in your app.
